@@ -7,7 +7,7 @@ if st.button("Total Mark", use_container_width=True):
     st.switch_page("pages/Total_Mark.py")
 
 if st.button("Algebra 1", use_container_width=True):
-    st.switch_page("pages/Algebra_2.py")
+    st.switch_page("pages/Algebra_1.py")
 
 if st.button("Algebra 2", use_container_width=True):
     st.switch_page("pages/Algebra_2.py")
