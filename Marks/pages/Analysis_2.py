@@ -22,7 +22,7 @@ marks_df = pd.DataFrame(
     [
         {"Type": "Assignment 1","Weighting":0.05, "Percentage": 0.96, "Actual Mark?": "Yes", "Colour":"#0000ff"},
         {"Type": "Assignment 2","Weighting":0.05, "Percentage": 0.96, "Actual Mark?": "Yes", "Colour":"#0000ff"},
-        {"Type": "Assignment 3","Weighting":0.05, "Percentage": 0.76, "Actual Mark?": "Yes", "Colour":"#0000ff"},
+        {"Type": "Assignment 3","Weighting":0.05, "Percentage": 0.92, "Actual Mark?": "Yes", "Colour":"#0000ff"},
         {"Type": "Final Exam","Weighting":0.85, "Percentage": 0.85, "Actual Mark?": "No", "Colour":"#0000ff"},
     ]
 )
