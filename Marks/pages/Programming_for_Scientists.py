@@ -26,7 +26,7 @@ marks_df = pd.DataFrame(
     ]
 )
 final_mark = (marks_df["Weighting"] * marks_df["Percentage"]).sum()
-final_mark_df = pd.DataFrame([{"Type":"Final Mark","Weighting":1.00, "Percentage":final_mark, "Actual Mark?":"No", "Colour":"#ff0000"}])
+final_mark_df = pd.DataFrame([{"Type":"Final Mark","Weighting":1.00, "Percentage":final_mark, "Actual Mark?":"Yes", "Colour":"#ff0000"}])
 final_df = pd.concat([marks_df, final_mark_df], ignore_index=True)
 
 
