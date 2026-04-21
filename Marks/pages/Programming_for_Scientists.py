@@ -22,7 +22,7 @@ marks_df = pd.DataFrame(
     [
         {"Type": "Project 1","Weighting":0.25, "Percentage": 1, "Actual Mark?": "Yes", "Colour":"#0000ff"},
         {"Type": "Project 2","Weighting":0.35, "Percentage": 0.9655, "Actual Mark?": "Yes", "Colour":"#0000ff"},
-        {"Type": "Project 3","Weighting":0.40, "Percentage": 0.90, "Actual Mark?": "No", "Colour":"#0000ff"},
+        {"Type": "Project 3","Weighting":0.40, "Percentage": 0.954, "Actual Mark?": "Yes", "Colour":"#0000ff"},
     ]
 )
 final_mark = (marks_df["Weighting"] * marks_df["Percentage"]).sum()
